@@ -1,11 +1,8 @@
-# README
+# PhotoSite
+This is a simple photo sharing Web site created on Rails. 
+The website displays photos of the users and at the same time shows the comments posted by viewers.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
+* Ruby version 
 
 * System dependencies
 
@@ -20,5 +17,3 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
