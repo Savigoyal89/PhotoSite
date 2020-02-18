@@ -1,0 +1,26 @@
+<html>
+
+<h1 align="center" style="background-color:powderblue">PhotoSite User List</h1>
+<body>
+<p> There are 6 users</p>
+
+<table width="50%"  align="center" id="tab">
+  <tr>
+
+    <th>User</th>
+    <th>First</th>
+    <th>Last</th>
+  </tr>
+
+
+  <% @user_all.each do |user_all| %>
+    <tr align="center">
+      <td><%= user_all.id %></td>
+      <td><%= user_all.first_name  %></td>
+      <td><%= user_all.last_name %></td>
+    </tr>
+
+  <%end %>
+</table>
+</body>
+</html>
