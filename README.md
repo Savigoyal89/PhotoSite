@@ -1,19 +1,6 @@
 # PhotoSite
 This is a simple photo sharing Web site created on Rails. 
-The website displays photos of the users and at the same time shows the comments posted by viewers.
-
-* Ruby version 
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+There are two urls, in one url website displays all the users information.
+In second url, according to id provided in url photos of the specific user get displayed and 
+at the same time we can see the comments posted by viewers and 
+if we click on that user we can checkout that profile.
