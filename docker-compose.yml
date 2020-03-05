@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    command: /bin/bash -c "rm -f /tmp/server.pid && bundle exec rails server -b ec2-54-221-171-173.compute-1.amazonaws.com -P /tmp/server.pid"
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/PhotoSite
