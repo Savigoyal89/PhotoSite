@@ -106,7 +106,7 @@ RUN bundle lock
 RUN bundle install
 RUN gem install rails
 COPY . /PhotoSite
-EXPOSE 3000
+EXPOSE 8080
 
 # Start the main process.
-CMD ["rails", "server", "-b", "ec2-54-221-171-173.compute-1.amazonaws.com"]
+CMD ["rails", "server", "-b", "0.0.0.0","-p","8080"]
